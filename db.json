@@ -22,11 +22,7 @@
                 "document_type": "P",
                 "cuit": "20123456789",
                 "bank_account": "1234567890",
-                "birthdate": [
-                    1980,
-                    5,
-                    15
-                ],
+                "birthdate": [1980, 5, 15],
                 "is_validated": false,
                 "is_active": true,
                 "addresses": [
@@ -74,11 +70,7 @@
                 "document_type": "I",
                 "cuit": "27987654321",
                 "bank_account": "0987654321",
-                "birthdate": [
-                    1985,
-                    7,
-                    20
-                ],
+                "birthdate": [1985, 7, 20],
                 "is_validated": false,
                 "is_active": true,
                 "addresses": [
@@ -126,11 +118,7 @@
                 "document_type": "P",
                 "cuit": "23111223344",
                 "bank_account": "1112233445",
-                "birthdate": [
-                    1990,
-                    3,
-                    25
-                ],
+                "birthdate": [1990, 3, 25],
                 "is_validated": false,
                 "is_active": true,
                 "addresses": [
@@ -178,11 +166,7 @@
                 "document_type": "I",
                 "cuit": "24444556677",
                 "bank_account": "4445566778",
-                "birthdate": [
-                    1983,
-                    11,
-                    10
-                ],
+                "birthdate": [1983, 11, 10],
                 "is_validated": false,
                 "is_active": true,
                 "addresses": [
@@ -230,11 +214,7 @@
                 "document_type": "P",
                 "cuit": "25888999000",
                 "bank_account": "8889990001",
-                "birthdate": [
-                    1995,
-                    2,
-                    28
-                ],
+                "birthdate": [1995, 2, 28],
                 "is_validated": false,
                 "is_active": true,
                 "addresses": [
@@ -259,6 +239,58 @@
                     }
                 ]
             }
+        }
+    ],
+    "plots": [
+        {
+            "id": 1,
+            "plot_number": 1001,
+            "block_number": 1,
+            "total_area": 500,
+            "built_area": 100,
+            "plot_status": "CREATED",
+            "plot_type": "COMMERCIAL",
+            "percentage_for_expense": 10.5
+        },
+        {
+            "id": 2,
+            "plot_number": 1002,
+            "block_number": 2,
+            "total_area": 600,
+            "built_area": 150,
+            "plot_status": "FOR_SALE",
+            "plot_type": "PRIVATE",
+            "percentage_for_expense": 12
+        },
+        {
+            "id": 3,
+            "plot_number": 1003,
+            "block_number": 3,
+            "total_area": 700,
+            "built_area": 200,
+            "plot_status": "SALE",
+            "plot_type": "COMMUNAL",
+            "percentage_for_expense": 15
+        },
+        {
+            "id": 4,
+            "plot_number": 1004,
+            "block_number": 4,
+            "total_area": 800,
+            "built_area": 250,
+            "plot_status": "SALE_PROCESS",
+            "plot_type": "COMMERCIAL",
+            "percentage_for_expense": 18
+        },
+        {
+            "id": 5,
+            "plot_number": 1005,
+            "block_number": 5,
+            "total_area": 900,
+            "built_area": 300,
+            "plot_status": "CONSTRUCTION_PROCESS",
+            "plot_type": "PRIVATE",
+            "percentage_for_expense": 20
         }
     ]
 }
